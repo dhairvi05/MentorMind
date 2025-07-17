@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  height: 100px; /* ↓ from 131px */
+  background-color: #f3efe5;
+  z-index: 1000;
+}
+
+.navbar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98px; /* ↓ from 130px */
+  background-color: #f3efe5;
+  z-index: 1;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;  /* ↓ from 206px */
+  height: 100px; /* ↓ from 131px */
+  object-fit: cover;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  position: absolute;
+  top: 50px; /* ↓ from 65px */
+  left: 350px; /* ↓ from 311px */
+  display: flex;
+  gap: 100px; /* ↓ from 60px */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.navbar-item {
+  font-family: "Inter", sans-serif;
+  font-size: 16px; /* ↓ from 20px */
+  color: #040359;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.navbar-auth-button {
+  position: absolute;
+  top: 28px; /* ↓ from 45px */
+  left: 1200px; /* ↓ from 1189px */
+  width: 180px; /* ↓ from 230px */
+  height: 50px; /* ↓ from 64px */
+  background-color: #747291;
+  border: none;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+  transition: backgroud 0.3s ease;
+}
+
+.navbar-auth-text {
+  position: absolute;
+  top: 16px; /* ↓ from 19px */
+  left: 38px; /* ↓ from 49px */
+  font-family: "Inter", sans-serif;
+  font-size: 16px; /* ↓ from 20px */
+  color: #040359;
+  white-space: nowrap;
+}
+
+.navbar-auth-button:hover {
+  background-color: #5a5875;
+}

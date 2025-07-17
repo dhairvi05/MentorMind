@@ -1,0 +1,9 @@
+<div class="dashboard-container" [class.blurred]="uploadPopup">
+  <app-dashboard-nav></app-dashboard-nav>
+  <router-outlet></router-outlet>
+</div>
+
+<app-upload-resume *ngIf="uploadPopup" 
+                   (close)="closePopup()"
+                   (next)="handleNext($event)">
+</app-upload-resume>

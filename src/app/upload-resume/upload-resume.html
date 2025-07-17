@@ -1,0 +1,18 @@
+<div class="popup-backdrop">
+  <div class="popup-box">
+    <div class="upload-resume">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <button class="button" (click)="onNext()" [disabled]="!extractedText"><div class="text-wrapper">Next</div></button>
+          <button class="div-wrapper" (click)="close.emit()"><div class="div">Close</div></button>
+          <div class="rectangle"></div>
+          <div class="email">
+            <div class="text-wrapper-2">Upload your resume:</div>
+            <input type="file" accept="application/pdf" (change)="onFileSelected($event)" class="file"/>
+          </div>
+          <div class="text-wrapper-3">(.pdf only)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

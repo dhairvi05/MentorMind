@@ -1,0 +1,276 @@
+.dashboard .text-wrapper-3 {
+  position: absolute;
+  top: 135px;
+  left: 43px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-weight: 700;
+  color: #040359;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .resume {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 235px;
+  left: 83px;
+}
+
+.dashboard .text-wrapper-4 {
+  position: absolute;
+  top: -1px;
+  left: 60px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.dashboard .feedback-svgrepo-com {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: -4px;
+    left: 18px;
+}
+
+.resume-options {
+  margin-left: 300px;
+  margin-top: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 12px;
+  width: max-content;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
+}
+
+.option {
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s;
+  font-size: 20px;
+}
+
+.option:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.dashboard .chatbot {
+    position: absolute;
+    width: 394px;
+    height: 100px;
+    top: 290px;
+    left: 83px;
+}
+
+.dashboard .text-wrapper-5 {
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.dashboard .robot-svgrepo-com {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: -4px;
+    left: 18px;
+}
+
+.dashboard .roadmap {
+    position: absolute;
+    width: 394px;
+    height: 100px;
+    top: 350px;
+    left: 83px;
+}
+
+.dashboard .skill-level-basic {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    top: -4px;
+    left: 18px;
+}
+
+.dashboard .overlap {
+    position: absolute;
+    width: 394px;
+    height: 100px;
+    top: 410px;
+    left: 83px;
+}
+.dashboard .analyzer {
+    width: 394px;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+
+.dashboard .search-file-svgrepo {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  top: 0px;
+  left: 18px;
+}
+
+.dashboard .overlap-2 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 500px;
+    left: 930px;
+    border-radius: 35px;
+}
+
+.dashboard .rectangle {
+    height: 252px;
+    position: absolute;
+    width: 608px;
+    top: 0;
+    left: 0;
+    background-color: #362e43;
+    border-radius: 35px;
+    opacity: 0.35;
+}
+.dashboard .planner {
+    position: absolute;
+    top: 19px;
+    left: 22px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.dashboard .use-resume-evaluator {
+    position: absolute;
+    top: 55px;
+    left: 22px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5); /* Adjust the scale value to your desired size */
+  margin-right: 10px;    /* Add spacing between checkbox and label text */
+  pointer-events: none;  /* Prevent user from checking manually */
+}
+
+.dashboard .career-progress {
+    position: absolute;
+    width: 608px;
+    height: 526px;
+    top: 135px;
+    left: 832px;
+}
+.dashboard .career {
+    position: absolute;
+    width: 610px;
+    height: 90px;
+    top: 0;
+    left: 0;
+}
+
+.dashboard .overlap-group-2 {
+    position: relative;
+    width: 608px;
+    height: 90px;
+    border-radius: 35px;
+}
+
+.dashboard .rectangle-2 {
+    height: 60px;
+    position: absolute;
+    width: 500px;
+    top: 0;
+    left: 100px;
+    background-color: #362e43;
+    border-radius: 35px;
+    opacity: 0.35;
+}
+.dashboard .text-wrapper-6 {
+    position: absolute;
+    top: 10.5px;
+    left: 213px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.dashboard .progress {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 80px;
+    left: 190px;
+}
+
+.dashboard .overlap-3 {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border-radius: 150px / 125px; /* same elliptical ratio */
+}
+.dashboard .ellipse-2 {
+   position: absolute;
+   width: 300px;
+   height: 250px;
+   top: 0;
+   left: 0;
+   background-color: #f3efe5;
+   border-radius: 150px / 125px;
+   border: 20px solid;
+   border-color: #040359;
+   opacity: 0.7;
+}
+
+.dashboard .text-wrapper-7 {
+    position: absolute;
+    top: 90px;
+    left: 113px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.dashboard {
+    background-color: #f3efe5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}

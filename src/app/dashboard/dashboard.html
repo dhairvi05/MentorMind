@@ -1,0 +1,65 @@
+<div class="dashboard">
+  <div class="text-wrapper-3">Welcome {{userName}}</div>
+  <div class="resume">
+
+    <div class="text-wrapper-4" (click)="toggleResume()">Resume Evaluator</div>
+    <div *ngIf="showResumeOptions" class="resume-options">
+      <p class="option" (click)="chooseOption('upload')">Upload Resume</p>
+      <p class="option" (click)="chooseOption('build')">Build Resume</p>
+    </div>
+    <img class="feedback-svgrepo-com" src="assets/feedback-svgrepo-com.svg" />
+  </div>
+
+  <div class="chatbot">
+    <div class="text-wrapper-5">Career Chatbot</div>
+    <img class="robot-svgrepo-com" src="assets/robot-svgrepo-com.svg" />
+  </div>
+  
+  <div class="roadmap">
+    <div class="text-wrapper-5">Skill Roadmap</div>
+    <img class="skill-level-basic" src="assets/skill-level-basic-svgrepo-com.svg" />
+  </div>
+
+  <div class="overlap">
+    <div class="analyzer"><div class="text-wrapper-5">JD Analyzer</div></div>
+    <img class="search-file-svgrepo" src="assets/search-file-svgrepo-com.svg" />
+  </div>
+
+  <div class="overlap-2">
+    <div class="rectangle"></div>
+    <div class="planner">Planner:</div>
+    <div class="use-resume-evaluator">
+      <label>
+        <input type="checkbox" [checked]="usedResumeEvaluator" disabled/>
+        Use Resume Evaluator
+      </label><br/>
+      <label>
+        <input type="checkbox" [checked]="usedCareerChatBot" disabled/>
+        Try Career Chatbot
+      </label><br/>
+      <label>
+        <input type="checkbox" [checked]="usedSkillRoadmap" disabled/>
+        Generate Skill Roadmap
+      </label><br/>
+      <label>
+        <input type="checkbox" [checked]="usedJDAnalyzer" disabled/>
+        Use JD Analyzer
+      </label><br/>
+    </div>
+  </div>
+  <div class="career-progress">
+    <div class="career">
+      <div class="overlap-group-2">
+        <div class="rectangle-2"></div>
+        <div class="text-wrapper-6">Career Readiness</div>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="overlap-3">
+        <div class="ellipse-2"></div>
+        <div class="text-wrapper-7">0%</div>
+      </div>
+    </div>
+  </div>
+</div>
+

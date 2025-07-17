@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Base Reset Enhancements */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+div {
+  /* height: 100%; */
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+  overflow-x: hidden; 
+  scrollbar-width: none;          /* Firefox */
+  -ms-overflow-style: none; 
+}
+
+/* Global focus outline for accessibility */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline-offset: 2px;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+/* Link default style */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.page-content.blurred {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.blurred {
+  pointer-events: none; /* disables background clicks */
+  filter: blur(3px);
+}

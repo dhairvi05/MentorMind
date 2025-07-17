@@ -1,0 +1,147 @@
+.popup-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+.popup-box {
+  position: relative;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+.upload-resume {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.upload-resume .overlap-group-wrapper {
+    width: 754px;
+    height: 500px;
+}
+
+.upload-resume .overlap-group {
+    position: relative;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.upload-resume .button {
+    all: unset;
+    box-sizing: border-box;
+    left: 476px;
+    position: absolute;
+    width: 238px;
+    height: 64px;
+    top: 393px;
+    background-color: #747291;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1002;
+    cursor: pointer;
+}
+.upload-resume .text-wrapper {
+    position: absolute;
+    top: 19px;
+    left: 92px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #043359;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.upload-resume .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    left: 55px;
+    position: absolute;
+    width: 230px;
+    height: 64px;
+    top: 393px;
+    background-color: #747291;
+    color: #043359;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1002;
+}
+
+.upload-resume .div {
+    position: absolute;
+    top: 19px;
+    left: 85px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.upload-resume .rectangle {
+    position: absolute;
+    width: 754px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    background-color: #f3efe5;
+    border-radius: 30px;
+    box-shadow: 0px 4px 24px #00000033;
+    opacity: 0.15;
+}
+
+.upload-resume .email {
+    position: absolute;
+    width: 487px;
+    height: 78px;
+    top: 78px;
+    left: 72px;
+}
+
+.upload-resume .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 500;
+    font-size: 24px;
+    color: #040359;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.upload-resume .file {
+    position: absolute;
+    width: 487px;
+    height: 27px;
+    top: 52px;
+    left: -1px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.upload-resume .text-wrapper-3 {
+    position: absolute;
+    top: 173px;
+    left: 72px;
+    font-family: "Inria Serif-Bold", Helvetica;
+    font-weight: 700;
+    color: #362e43;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+

@@ -1,17 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.html',
+  selector: 'app-homepage',
   standalone: false,
-  styleUrls: ['./app.css']
+  templateUrl: './homepage.html',
+  styleUrl: './homepage.css'
 })
-export class App {
+export class Homepage {
   constructor(private router: Router){}
 
   protected title = 'MentorMind';
   isSignupOpen = false;
+  @Output() triggerSignup = new EventEmitter();
   openSignup() {
     this.isSignupOpen = true;
   }
@@ -37,26 +38,11 @@ export class App {
   onSignupSubmit(isValid: boolean) {
     if (!isValid) return; // stop here if form was invalid
     this.closeSignup();
-    this.router.navigate(['/dashboard']);
+    this.router.navigate(['/home']);
   }
   onLoginSubmit(isValid: boolean) {
     if(!isValid) return;
     this.closeLogin();
-    this.router.navigate(['/dashboard']);
-  }
-  onActivate(componentRef: any) {
-    if(componentRef.triggerSignup) {
-      componentRef.triggerSignup.subscribe(()=>{
-        this.openSignup();
-      });
-    }
-  }
-  toDashboard() {
-    this.closeSignup();
-    this.router.navigate(['/dashboard']);
-  }
-  isDashboard(): boolean {
-    return this.router.url.startsWith('/dashboard');
+    this.router.navigate(['/home']);
   }
 }
-

@@ -1,0 +1,359 @@
+.about {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .div {
+  overflow-x: hidden;
+  width: 100%;
+  height: 2200px;
+  position: relative;
+}
+
+.about .about-page {
+  position: absolute;
+  width: 100%;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #f3efe5;
+}
+
+.about .headline {
+  position: absolute;
+  width: 1301px;
+  height: 211px;
+  top: 250px;
+  left: 71px;
+}
+
+.about .p {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-weight: 700;
+  color: #040359;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .text-wrapper-6 {
+  position: absolute;
+  width: 851px;
+  top: 136px;
+  left: 184px;
+  font-family: "Libre Baskerville-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #747291;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .overlap {
+  position: absolute;
+  width: 1442px;
+  height: 1176px;
+  top: 1024px;
+  left: 0;
+}
+
+.about .pillars {
+  position: absolute;
+  width: 1442px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.about .overlap-2 {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #f3efe5;
+}
+
+.about .pillar {
+  position: absolute;
+  width: 1324px;
+  height: 150px;
+  top: 383px;
+  left: 97px;
+}
+
+.about .text-wrapper-7 {
+  position: absolute;
+  top: -1px;
+  left: 96px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-8 {
+  position: absolute;
+  width: 1234px;
+  top: 75px;
+  left: 86px;
+  font-family: "Libre Baskerville-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #747291;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .resume-business-cv {
+  position: absolute;
+  width: 72px;
+  height: 71px;
+  top: 4px;
+  left: 0;
+}
+
+.about .layer {
+  position: absolute;
+  width: 66px;
+  height: 69px;
+  top: 1px;
+  left: 3px;
+}
+
+.about .pillar-2 {
+  position: absolute;
+  width: 1321px;
+  height: 153px;
+  top: 564px;
+  left: 100px;
+}
+
+.about .text-wrapper-9 {
+  position: absolute;
+  top: 2px;
+  left: 93px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-10 {
+  position: absolute;
+  width: 1234px;
+  top: 78px;
+  left: 83px;
+  font-family: "Libre Baskerville-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #747291;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .page {
+  position: absolute;
+  width: 68px;
+  height: 57px;
+  top: 0;
+  left: 0;
+}
+
+.about .pillar-3 {
+  position: absolute;
+  width: 1320px;
+  height: 150px;
+  top: 759px;
+  left: 100px;
+}
+
+.about .text-wrapper-11 {
+  position: absolute;
+  top: -1px;
+  left: 92px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-12 {
+  position: absolute;
+  width: 1234px;
+  top: 75px;
+  left: 82px;
+  font-family: "Libre Baskerville-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #747291;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .target-arrow-svgrepo {
+  position: absolute;
+  width: 69px;
+  height: 54px;
+  top: 0;
+  left: 0;
+}
+
+.roadmap {
+    position: absolute;
+    width: 69px;
+    height: 54px;
+    top: 0;
+    left: 0;
+}
+
+.about .text-wrapper-13 {
+  position: absolute;
+  top: 22px;
+  left: 520px;
+  text-shadow: 0px 4px 4px #00000040;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Rounded Mplus 1c Bold-Bold", Helvetica;
+  font-weight: 700;
+  color: #040359;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .line {
+  position: absolute;
+  width: 483px;
+  height: 2px;
+  top: 117px;
+  left: 442px;
+  object-fit: cover;
+  background-color: black;
+}
+
+.about .pillar-4 {
+  position: absolute;
+  width: 1307px;
+  height: 150px;
+  top: 199px;
+  left: 114px;
+}
+
+.about .text-wrapper-14 {
+  position: absolute;
+  top: 10px;
+  left: 79px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-15 {
+  position: absolute;
+  width: 1234px;
+  top: 75px;
+  left: 69px;
+  font-family: "Libre Baskerville-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #747291;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .group {
+  position: absolute;
+  width: 56px;
+  height: 66px;
+  top: 0;
+  left: 0;
+}
+
+/* .about .footer {
+  position: absolute;
+  width: 1440px;
+  height: 169px;
+  top: 1007px;
+  left: 0;
+  background-color: #040359;
+}
+
+.about .page-2 {
+  width: 69px;
+  height: 52px;
+  top: 49px;
+  left: 1230px;
+  position: absolute;
+  background-image: url(./img/image.png);
+  background-size: 100% 100%;
+}
+
+.about .page-3 {
+  width: 73px;
+  height: 64px;
+  top: 40px;
+  left: 1344px;
+  position: absolute;
+  background-image: url(./img/icons.png);
+  background-size: 100% 100%;
+}
+
+.about .text-wrapper-16 {
+  position: absolute;
+  top: 65px;
+  left: 539px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .element {
+  position: absolute;
+  width: 66px;
+  height: 63px;
+  top: 43px;
+  left: 1119px;
+}
+
+.about .text-wrapper-17 {
+  position: absolute;
+  top: 51px;
+  left: 44px;
+  font-family: "Libre Baskerville-Bold", Helvetica;
+  font-weight: 700;
+  color: #fffdfd;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+} */

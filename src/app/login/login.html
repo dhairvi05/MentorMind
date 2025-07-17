@@ -1,0 +1,31 @@
+<div class="login-overlay">
+  <div class="create-account">
+    <div class="overlap-group-wrapper">
+      <div class="overlap-group">
+        <!-- Heading -->
+        <div class="heading">Welcome Back!</div>
+        <form #loginForm="ngForm" (ngSubmit)="onLoginSubmit(loginForm)">
+          <!-- Email Field -->
+          <div class="form-group">
+            <label>Email:</label>
+            <input name="email" class="input" type="email" placeholder="xyz@gmail.com" required ngModel/>
+          </div>
+          <!-- Password Field -->
+          <div class="form-group">
+            <label>Password:</label>
+            <input name="password" class="input" type="password" placeholder="••••••" required ngModel/>
+          </div>
+          <!-- Sign In Button -->
+          <button class="button" [disabled]="!loginForm.valid">
+            <div class="button-text">Login</div>
+          </button>
+          <!-- Switch Text -->
+          <p class="switch-text">
+            Don't have an account? <span class="highlight" (click)="signup()">Create one</span>
+          </p>
+          <button class="close-button" (click)="closePopup()">✖</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
