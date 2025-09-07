@@ -23,6 +23,7 @@ import { PopupService } from './popup-service/popup-service';
 import { ResumeFeedback } from './resume-feedback/resume-feedback';
 import { BuildResume } from './build-resume/build-resume';
 import { PersonalDetails } from './personal-details/personal-details';
+import { Links } from './links/links';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { PersonalDetails } from './personal-details/personal-details';
     PopupService,
     ResumeFeedback,
     BuildResume,
-    PersonalDetails
+    PersonalDetails,
+    Links
   ],
   imports: [
     BrowserModule,

@@ -39,8 +39,8 @@
               </div>
             </div>
           </div>
-          <div class="expanded-content" *ngIf="isExpanded(1)" [class.show]="isExpanded(1)">
-            <!-- Add your website and social links content here -->
+          <div class="expanded-content" [class.show]="isExpanded(1)">
+            <app-links></app-links>
           </div>
         </div>
 

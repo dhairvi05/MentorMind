@@ -1,0 +1,33 @@
+<div class="links">
+    <div class="form">
+      <div class="title">Website Links & Social Links</div>
+      <div class="container">
+        <div class="group" *ngFor="let link of links; let i = index">
+            <label class="form-label" [(ngModel)]="link.platform" name="platform{{i}}">GitHub</label>
+            <input type="url" class="input">
+            <span class="delete" (click)="removeLink(i)">X</span>
+        </div>
+        <div class="group">
+            <label class="form-label">Vercel</label>
+            <input type="url" class="input">
+            <span class="delete">X</span>
+        </div>
+        <div class="group">
+            <label class="form-label">LinkedIn</label>
+            <input type="url" class="input">
+            <span class="delete">X</span>
+        </div>
+        <div class="group">
+            <label class="form-label">Instagram</label>
+            <input type="url" class="input">
+            <span class="delete">X</span>
+        </div>
+        <div class="group">
+            <label class="form-label">Twitter</label>
+            <input type="url" class="input">
+            <span class="delete">X</span>
+        </div>
+      </div>
+      <button type="button" class="button" (click)="addLink()">Add Link</button>
+    </div>
+</div>

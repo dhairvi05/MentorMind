@@ -1,3 +1,13 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3efe5;
+    box-sizing: border-box;
+}
+
 .dashboard .text-wrapper-3 {
   position: absolute;
   top: 135px;
@@ -265,11 +275,4 @@ input[type="checkbox"] {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
-}
-
-.dashboard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
 }
