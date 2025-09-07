@@ -2,10 +2,10 @@
   <div class="text-wrapper-3">Welcome {{userName}}</div>
   <div class="resume">
 
-    <div class="text-wrapper-4" (click)="toggleResume()">Resume Evaluator</div>
+    <div class="text-wrapper-4" (click)="toggleResume()">Resume Feedback</div>
     <div *ngIf="showResumeOptions" class="resume-options">
       <p class="option" (click)="chooseOption('upload')">Upload Resume</p>
-      <p class="option" (click)="chooseOption('build')">Build Resume</p>
+      <p class="option" [routerLink]="['/dashboard/build-resume']">Build Resume</p>
     </div>
     <img class="feedback-svgrepo-com" src="assets/feedback-svgrepo-com.svg" />
   </div>
@@ -31,7 +31,7 @@
     <div class="use-resume-evaluator">
       <label>
         <input type="checkbox" [checked]="usedResumeEvaluator" disabled/>
-        Use Resume Evaluator
+        Use Resume Feedback
       </label><br/>
       <label>
         <input type="checkbox" [checked]="usedCareerChatBot" disabled/>

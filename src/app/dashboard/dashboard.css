@@ -177,9 +177,9 @@
 }
 
 input[type="checkbox"] {
-  transform: scale(1.5); /* Adjust the scale value to your desired size */
-  margin-right: 10px;    /* Add spacing between checkbox and label text */
-  pointer-events: none;  /* Prevent user from checking manually */
+  transform: scale(1.5); 
+  margin-right: 10px;    
+  pointer-events: none; 
 }
 
 .dashboard .career-progress {
@@ -268,7 +268,6 @@ input[type="checkbox"] {
 }
 
 .dashboard {
-    background-color: #f3efe5;
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -20,6 +20,9 @@ import { Dashboard } from './dashboard/dashboard';
 import { DashboardLayout } from './dashboard-layout/dashboard-layout';
 import { UploadResume } from './upload-resume/upload-resume';
 import { PopupService } from './popup-service/popup-service';
+import { ResumeFeedback } from './resume-feedback/resume-feedback';
+import { BuildResume } from './build-resume/build-resume';
+import { PersonalDetails } from './personal-details/personal-details';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { PopupService } from './popup-service/popup-service';
     Dashboard ,
     DashboardLayout,
     UploadResume,
-    PopupService
+    PopupService,
+    ResumeFeedback,
+    BuildResume,
+    PersonalDetails
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,159 @@
+<div class="resume-feedback">
+  <div class="div">
+    <div class="overlap">
+      <div class="overlap-group">
+        <div class="bar">
+          <div class="div-wrapper"><div class="text-wrapper-5">Resume 0% optimized</div></div>
+        </div>
+        <div class="sidebar">
+          <div class="overlap-2">
+            <div class="rectangle"></div>
+            <div class="resume"><div class="resume-evaluator">Resume Feedback</div></div>
+            <div class="settings">Settings</div>
+            <div class="jd">Match with JD</div>
+            <div class="upload"><div class="resume-evaluator">Upload Resume</div></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cards-container">
+        <div class="card-item">
+          <div class="personal">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Personal Details</div>
+              <div class="chevron" (click)="toggle(0)" [class.expanded]="isExpanded(0)">
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content"  [class.show]="isExpanded(0)">
+            <app-personal-details></app-personal-details>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="links">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Website and Social Links</div>
+              <div class="chevron" (click)="toggle(1)" [class.expanded]="isExpanded(1)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(1)" [class.show]="isExpanded(1)">
+            <!-- Add your website and social links content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="education">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Education</div>
+              <div class="chevron" (click)="toggle(2)" [class.expanded]="isExpanded(2)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(2)" [class.show]="isExpanded(2)">
+            <!-- Add your education content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="work-experience">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Work Experience</div>
+              <div class="chevron" (click)="toggle(3)" [class.expanded]="isExpanded(3)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(3)" [class.show]="isExpanded(3)">
+            <!-- Add your work experience content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="projects">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Projects</div>
+              <div class="chevron" (click)="toggle(4)" [class.expanded]="isExpanded(4)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(4)" [class.show]="isExpanded(4)">
+            <!-- Add your projects content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="skills">
+            <div class="overlap-3">
+              <div class="text-wrapper-6">Skills</div>
+              <div class="chevron" (click)="toggle(5)" [class.expanded]="isExpanded(5)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(5)" [class.show]="isExpanded(5)">
+            <!-- Add your skills content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="cerificates">
+            <div class="overlap-3">
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-6">Certificates</div>
+              <div class="chevron" (click)="toggle(6)" [class.expanded]="isExpanded(6)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(6)" [class.show]="isExpanded(6)">
+            <!-- Add your certificates content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="achievements">
+            <div class="overlap-3">
+              <div class="rectangle-2"></div>
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-6">Achievements</div>
+              <div class="chevron" (click)="toggle(7)" [class.expanded]="isExpanded(7)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(7)" [class.show]="isExpanded(7)">
+            <!-- Add your achievements content here -->
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="co-curricular">
+            <div class="overlap-3">
+              <div class="rectangle-2"></div>
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-6">Co-Curricular</div>
+              <div class="chevron" (click)="toggle(8)" [class.expanded]="isExpanded(8)">
+                <div class="mynaui-chevron-down"><img class="vector-3"  /></div>
+              </div>
+            </div>
+          </div>
+          <div class="expanded-content" *ngIf="isExpanded(8)" [class.show]="isExpanded(8)">
+            <!-- Add your co-curricular content here -->
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="overlap-4">
+          <div class="resume-evaluator-wrapper"><div class="resume-evaluator">Resume Preview</div></div>
+          <p class="p">Here uploaded/generated&nbsp;&nbsp;<br />resume will be visible</p>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>

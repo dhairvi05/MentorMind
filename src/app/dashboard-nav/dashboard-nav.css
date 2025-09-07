@@ -62,3 +62,23 @@
     left: 0;
     object-fit: cover;
 }
+
+.navbar-menu {
+  position: absolute;
+  top: 50px; /* ↓ from 65px */
+  left: 350px; /* ↓ from 311px */
+  display: flex;
+  gap: 100px; /* ↓ from 60px */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.navbar-item {
+  font-family: "Inter", sans-serif;
+  font-size: 16px; /* ↓ from 20px */
+  color: #040359;
+  white-space: nowrap;
+  cursor: pointer;
+}

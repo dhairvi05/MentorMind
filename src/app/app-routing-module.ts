@@ -6,11 +6,13 @@ import { About } from './about/about';
 import { ContactUs } from './contact-us/contact-us';
 import { DashboardLayout } from './dashboard-layout/dashboard-layout';
 import { Dashboard } from './dashboard/dashboard';
+import { BuildResume } from './build-resume/build-resume';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashboardLayout, 
     children: [
-      { path: '', component: Dashboard }
+      { path: '', component: Dashboard },
+      { path: 'build-resume', component: BuildResume}
     ]
   },
   { path: 'contact', component: ContactUs},

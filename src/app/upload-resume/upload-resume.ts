@@ -1,9 +1,7 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist';
-// import workerSrc from 'pdfjs-dist/build/pdf.worker.min?url';
 
-// GlobalWorkerOptions.workerSrc = workerSrc;
-GlobalWorkerOptions.workerSrc = '/assets/pdf.worker.min.js';
+GlobalWorkerOptions.workerSrc = '/assets/pdfjs/pdf.worker.min.js';
 
 @Component({
   selector: 'app-upload-resume',
